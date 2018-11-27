@@ -1,0 +1,309 @@
+/* Header */
+.top-header {
+  height: 65px;
+  background-color: #434ec0;
+}
+
+.top-header .mail {
+  line-height: 65px;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-brand img {
+  height: 85px;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav-link {
+  padding: 20px !important;
+  margin-right: 10px;
+  text-transform: uppercase;
+  -webkit-transition: all ease-out 1s;
+  transition: all ease-out 1s;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background-color: #2997f6;
+  border-radius: 50px;
+  color: white !important;
+}
+
+.menu {
+  border-bottom: 5px solid;
+  border-color: #434ec0;
+}
+
+/* Header Social buttons */
+.wrapper {
+  position: absolute;
+  top: 4%;
+  left: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+.wrapper ul li {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  margin-top: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+    to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper ul li:hover.facebook {
+  border: 5px solid #3b5998;
+  -webkit-box-shadow: 0 0 15px #3b5998;
+          box-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/*twitter*/
+.wrapper ul li:hover.twitter {
+  border: 5px solid #00aced;
+  -webkit-box-shadow: 0 0 15px #00aced;
+          box-shadow: 0 0 15px #00aced;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.wrapper ul li:hover.instagram {
+  border: 5px solid #bc2a8d;
+  -webkit-box-shadow: 0 0 15px #bc2a8d;
+          box-shadow: 0 0 15px #bc2a8d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* google */
+.wrapper ul li:hover.google {
+  border: 5px solid #dd4b39;
+  -webkit-box-shadow: 0 0 15px #dd4b39;
+          box-shadow: 0 0 15px #dd4b39;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* whatsapp */
+.wrapper ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  -webkit-box-shadow: 0 0 15px #4dc247;
+          box-shadow: 0 0 15px #4dc247;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* End Header Social buttons */
+/* Slider on main page */
+.slider {
+  height: 500px;
+  background: url(../assets/main_slider.jpg) no-repeat 100% center/cover;
+}
+
+.advartisement {
+  position: relative;
+  left: 65%;
+  top: 30%;
+  border-radius: 50px;
+  height: 200px;
+  width: 350px;
+  background-color: rgba(41, 151, 246, 0.7);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  font-weight: 300;
+  z-index: 22;
+}
+
+.advartisement .span {
+  position: relative;
+  z-index: 33;
+}
+
+/* End Slider on main page */
+/* Portfolio on main page */
+.portfolio {
+  height: 100px;
+  background-color: #2997f6;
+  text-align: center;
+}
+
+.portfolio h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.main-portfolio-block .site-block {
+  background-color: rgba(221, 221, 218, 0.1);
+  height: 400px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: 4px solid;
+  border-color: #434ec0;
+  overflow: hidden;
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+}
+
+.main-portfolio-block .site-block:hover {
+  height: 425px;
+  width: 345px;
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+  margin-top: 10px;
+}
+
+.main-portfolio-block .site-block:hover .img-desc {
+  height: 425px;
+  width: 345px;
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-portfolio-block .site-block:hover .img-desc h1 {
+  display: none;
+}
+
+.main-portfolio-block .site-block img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.main-portfolio-block .site-block .img-desc {
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0%;
+  height: 400px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: 4px solid;
+  left: 0%;
+  right: 0%;
+}
+
+.main-portfolio-block .site-block .img-desc h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* End of Portfolio on main page */
+/*# sourceMappingURL=main.css.map */
